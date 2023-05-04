@@ -14,7 +14,7 @@ namespace RefitApi.Controllers
         private readonly IEmployeeApiService _employeeApiService;
         public HomeController()
         {
-            _employeeApiService = RestService.For<IEmployeeApiService>("http://localhost:5126/api"); ;
+            _employeeApiService = RestService.For<IEmployeeApiService>("http://localhost:5126/api");
         }
 
         
